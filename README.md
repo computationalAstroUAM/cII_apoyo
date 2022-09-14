@@ -1,0 +1,1 @@
+Repositorio con los programas correspondientes a la introducción a C++ del curso Computación II.
