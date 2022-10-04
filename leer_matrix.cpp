@@ -20,11 +20,11 @@ int main(){
     ff >> nrows >> ncols;
 
     // Declaramos y leemos la matriz
-    matrix<double> A(nrows,ncols);
+    matrix<double> A(nrows,ncols); A.Null();
     ff >> A;
-
+    
     // Cerramos el fichero y despejamos la memoria
-    ff.close(); ff.clear()
+    ff.close(); ff.clear();
   }else cout <<"No se ha podido abrir el fichero " << infile << endl;
 
   return 0;
